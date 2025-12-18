@@ -2,6 +2,7 @@ site_name: My Tech Wiki
 
 theme:
   name: material
+  custom_dir: overrides
 
 plugins:
   - search
