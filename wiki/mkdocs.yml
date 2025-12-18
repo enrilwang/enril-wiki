@@ -9,6 +9,7 @@ plugins:
 
 markdown_extensions:
   - admonition
+  - fenced_code
   - codehilite
   - toc:
       permalink: true
