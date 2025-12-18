@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if page.meta.backlinks %}
+  <hr />
+  <h2>🔗 反向链接</h2>
+  <ul>
+    {% for link in page.meta.backlinks %}
+      <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endblock %}
+
