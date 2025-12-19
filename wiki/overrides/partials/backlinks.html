@@ -1,0 +1,14 @@
+{% if page.meta.backlinks %}
+<hr />
+<section class="backlinks">
+  <h2>🔗 反向链接</h2>
+  <ul>
+    {% for backlink in page.meta.backlinks %}
+      <li>
+        <a href="{{ backlink.url }}">{{ backlink.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
