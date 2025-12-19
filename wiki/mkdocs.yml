@@ -7,7 +7,7 @@ theme:
 plugins:
   - search
   - roamlinks
-  - backlinks
+
 
 markdown_extensions:
   - admonition
