@@ -4,7 +4,7 @@ theme:
   name: material
   custom_dir: overrides
 
-plugin_dir:
+plugins_dir:
   - plugins
 
 plugins:
