@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+backlinks = backlinks:BacklinksPlugin
