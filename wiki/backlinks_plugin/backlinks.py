@@ -28,7 +28,7 @@ class BacklinksPlugin(BasePlugin):
             page.meta["backlinks"] = [
                 {
                     "title": p.page.title or p.file.name,
-                    "url": p.page.url,
+                    "url": p.file.url,
                 }
                 for p in backlinks
                 if p.page
