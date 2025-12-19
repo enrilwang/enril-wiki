@@ -4,10 +4,13 @@ theme:
   name: material
   custom_dir: overrides
 
+plugin_dir:
+  - plugins
+
 plugins:
   - search
   - roamlinks
-  - plugins.backlinks
+  - backlinks
 
 markdown_extensions:
   - admonition
